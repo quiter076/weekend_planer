@@ -1,0 +1,156 @@
+{
+  "demographics": {
+    "city": "Уфа",
+    "total_population": 1150000,
+    "agglomeration_population": 1400000,
+    "target_audience_18_45": 520000,
+    "regularly_plan_weekends": 310000,
+    "smartphone_app_users_in_target": 285000
+  },
+  "infrastructure_summary": {
+    "restaurants_and_cafes": 1800,
+    "museums_and_exhibitions": 25,
+    "parks_and_squares": 60,
+    "spa_and_baths": 120,
+    "cinemas": 18,
+    "shopping_malls": 35,
+    "historical_sites": 40,
+    "sports_facilities": 80
+  },
+  "venues_sample": [
+    {
+      "id": 1,
+      "name": "Душа Уфы",
+      "category": "restaurant",
+      "latitude": 54.735,
+      "longitude": 55.955,
+      "avg_check_rub": 1500,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Национальный музей РБ",
+      "category": "museum",
+      "latitude": 54.739,
+      "longitude": 55.965,
+      "avg_check_rub": 300,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Парк Якутова",
+      "category": "park",
+      "latitude": 54.715,
+      "longitude": 55.985,
+      "avg_check_rub": 0,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "Белые ночи",
+      "category": "spa",
+      "latitude": 54.75,
+      "longitude": 55.94,
+      "avg_check_rub": 2500,
+      "rating": 4.5
+    },
+    {
+      "id": 5,
+      "name": "Кинотеатр Июнь",
+      "category": "cinema",
+      "latitude": 54.74,
+      "longitude": 55.97,
+      "avg_check_rub": 400,
+      "rating": 4.4
+    },
+    {
+      "id": 6,
+      "name": "ТЦ Планета",
+      "category": "mall",
+      "latitude": 54.69,
+      "longitude": 55.99,
+      "avg_check_rub": 1000,
+      "rating": 4.5
+    },
+    {
+      "id": 7,
+      "name": "Памятник Салавату Юлаеву",
+      "category": "landmark",
+      "latitude": 54.745,
+      "longitude": 55.95,
+      "avg_check_rub": 0,
+      "rating": 4.9
+    },
+    {
+      "id": 8,
+      "name": "Скалодром OnWall",
+      "category": "sport",
+      "latitude": 54.76,
+      "longitude": 55.93,
+      "avg_check_rub": 800,
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "name": "Арт-квадрат",
+      "category": "entertainment",
+      "latitude": 54.732,
+      "longitude": 55.962,
+      "avg_check_rub": 1200,
+      "rating": 4.6
+    },
+    {
+      "id": 10,
+      "name": "Ляля-Тюльпан",
+      "category": "landmark",
+      "latitude": 54.77,
+      "longitude": 55.98,
+      "avg_check_rub": 0,
+      "rating": 4.8
+    }
+  ],
+  "user_behavior": {
+    "avg_planning_time_hours": 2.0,
+    "information_sources_percent": {
+      "instagram_telegram": 45,
+      "yandex_maps_2gis": 30,
+      "friends_advice": 20,
+      "posters_ads": 5
+    },
+    "dissatisfied_with_planning_percent": 55,
+    "stay_home_due_to_laziness_percent": 28,
+    "avg_weekend_spend_per_person_rub": 2500
+  },
+  "tourism": {
+    "annual_tourists_bashkortostan": 1350000,
+    "tourists_visiting_ufa": 750000,
+    "tourists_seeking_1_2_day_routes": 525000,
+    "avg_tourist_weekend_budget_rub": 8500
+  },
+  "monetization_and_costs": {
+    "revenue_streams": [
+      {
+        "source": "freemium_subscription",
+        "users": 50000,
+        "price_rub": 149,
+        "monthly_revenue_rub": 7450000
+      },
+      {
+        "source": "b2b_partnerships",
+        "venues": 200,
+        "price_rub": 5000,
+        "monthly_revenue_rub": 1000000
+      },
+      {
+        "source": "event_ads",
+        "monthly_revenue_rub": 500000
+      }
+    ],
+    "total_potential_monthly_revenue_rub": 8950000,
+    "costs": {
+      "mvp_development_rub": 2000000,
+      "server_and_data_monthly_rub": 200000,
+      "marketing_monthly_rub": 350000
+    }
+  }
+}
